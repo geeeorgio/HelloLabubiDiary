@@ -1,0 +1,10 @@
+import { Text, View } from 'react-native';
+
+function App() {
+  return (
+    <View>
+      <Text>Hello, Labubi Diary!</Text>
+    </View>
+  );
+}
+export default App;
