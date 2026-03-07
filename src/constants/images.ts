@@ -19,7 +19,6 @@ export const ITEMS_IMAGES = {
   mood_lazy: require('src/assets/images/items/mood_lazy.png'),
   mood_overthinking: require('src/assets/images/items/mood_overthinking.png'),
   mood_sad: require('src/assets/images/items/mood_sad.png'),
-  mood_tired: require('src/assets/images/items/mood_tired.png'),
 };
 
 export const FRIENDS_IMAGES = {
