@@ -9,5 +9,10 @@ export const GAME_QUIZ: QuizType[] = [
   },
 ];
 
-export const SINGLE_QUIZ_QUESTIONS = 5;
-export const QUIZ_TIMER_MS = 20000;
+export const QUIZ_SCREEN_INFO = {
+  title: 'How Well Do You Know Labubi?',
+  description:
+    '30 questions. \n\n 4 answer choices each. \n\n 20 seconds for every question.',
+  more_info: 'Your final score will show how well you truly know her world.',
+  btnText: 'Start Quiz',
+};

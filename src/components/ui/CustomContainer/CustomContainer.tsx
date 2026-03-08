@@ -12,7 +12,9 @@ interface CustomContainerProps extends ViewProps {
     | 'lightPink'
     | 'darkPink'
     | 'red'
-    | 'green';
+    | 'green'
+    | 'transparent'
+    | 'tabBar';
 }
 
 const CustomContainer = ({

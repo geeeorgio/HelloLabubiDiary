@@ -8,3 +8,4 @@ export * from './missions';
 export * from './thoughts';
 export * from './mood';
 export * from './facts';
+export * from './gameInfo';

@@ -1,4 +1,6 @@
-export const THOUGHTS = [
+import type { ThoughtsType } from 'src/types';
+
+export const THOUGHTS: ThoughtsType[] = [
   {
     id: 'thought_1',
     text: 'Sometimes doing nothing is my way of surviving.',

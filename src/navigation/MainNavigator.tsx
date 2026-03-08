@@ -1,5 +1,6 @@
 import { createBottomTabNavigator } from '@react-navigation/bottom-tabs';
 
+import { CustomTabBar } from 'src/components';
 import {
   AboutScreen,
   FactsScreen,
@@ -21,6 +22,7 @@ const MainNavigator = () => {
           backgroundColor: 'transparent',
         },
       }}
+      tabBar={(props) => <CustomTabBar {...props} />}
       initialRouteName="AboutScreen"
     >
       <MainStack.Screen name="AboutScreen" component={AboutScreen} />

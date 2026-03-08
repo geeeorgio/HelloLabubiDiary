@@ -19,3 +19,8 @@ export type QuizType = {
   options: string[];
   correctValue: string;
 };
+
+export type ThoughtsType = {
+  id: string;
+  text: string;
+};

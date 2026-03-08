@@ -1,24 +1,23 @@
-import { useNavigation } from '@react-navigation/native';
 import { Image, View } from 'react-native';
 
 import { styles } from './styles';
 
 import { CustomButton, CustomContainer, CustomText } from 'src/components';
 import { ONBD_IMAGES, ONBOARDING_INFO } from 'src/constants';
-import type { OnboardingStackNavigationProp } from 'src/types';
+import { useOnboardingContext } from 'src/hooks/useOnboardingContext';
 
-const OnboardingScreen2 = () => {
-  const navigation = useNavigation<OnboardingStackNavigationProp>();
+const OnboardingScreen4 = () => {
+  const { setIsContextOnboardingDone } = useOnboardingContext();
 
   const handleNext = () => {
-    navigation.navigate('OnboardingScreen3');
+    setIsContextOnboardingDone(true);
   };
 
   return (
     <View style={styles.container}>
       <View style={styles.imageContainer}>
         <Image
-          source={ONBD_IMAGES.onbd2}
+          source={ONBD_IMAGES.onbd4}
           style={styles.image}
           resizeMode="contain"
         />
@@ -27,15 +26,15 @@ const OnboardingScreen2 = () => {
       <CustomContainer colorVariant="lightGreen" style={styles.mainContainer}>
         <View style={styles.textContainer}>
           <CustomText style={styles.title}>
-            {ONBOARDING_INFO.onboarding2.title}
+            {ONBOARDING_INFO.onboarding4.title}
           </CustomText>
           <CustomText style={styles.description}>
-            {ONBOARDING_INFO.onboarding2.description}
+            {ONBOARDING_INFO.onboarding4.description}
           </CustomText>
         </View>
         <CustomButton onPress={handleNext} style={styles.button}>
           <CustomText style={styles.buttonText}>
-            {ONBOARDING_INFO.onboarding2.btnText}
+            {ONBOARDING_INFO.onboarding4.btnText}
           </CustomText>
         </CustomButton>
       </CustomContainer>
@@ -46,7 +45,7 @@ const OnboardingScreen2 = () => {
             key={index}
             style={[
               styles.dot,
-              index === ONBOARDING_INFO.onboarding2.dot_index &&
+              index === ONBOARDING_INFO.onboarding4.dot_index &&
                 styles.dotActive,
             ]}
           />
@@ -56,4 +55,4 @@ const OnboardingScreen2 = () => {
   );
 };
 
-export default OnboardingScreen2;
+export default OnboardingScreen4;

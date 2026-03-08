@@ -18,6 +18,8 @@ export const styles = StyleSheet.create({
   },
   lightPink: {
     backgroundColor: COLORS.pink,
+    borderWidth: wp(2),
+    borderColor: COLORS.white_border,
   },
   darkPink: {
     backgroundColor: COLORS.fade_pink,

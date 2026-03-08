@@ -1,7 +1,7 @@
 export const COLORS = {
   white: '#FFFFFF',
   black: '#000000',
-  pink: '#FF6FAF',
+  pink: '#FF74B2',
   fade_pink: 'rgba(255, 92, 163, 0.5)',
 
   quiz_pink: 'rgba(230, 11, 109, 0.6)',
@@ -28,4 +28,6 @@ export const COLORS = {
 
   light_overlay: 'rgba(255, 255, 255, 0.1)',
   dark_overlay: 'rgba(0, 0, 0, 0.1)',
+  dark_overlay_2: 'rgba(0, 0, 0, 0.3)',
+  liquid_overlay: 'rgba(50, 50, 50, 0.3)',
 };

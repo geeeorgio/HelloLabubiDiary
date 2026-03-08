@@ -1,7 +1,7 @@
 import { ImageBackground, StyleSheet } from 'react-native';
 import { SafeAreaView } from 'react-native-safe-area-context';
 
-import { MAIN_BACKGROUND } from 'src/constants';
+import { COLORS, MAIN_BACKGROUND } from 'src/constants';
 
 const GameBackground = ({ children }: { children: React.ReactNode }) => {
   return (
@@ -23,5 +23,6 @@ const styles = StyleSheet.create({
   },
   content: {
     flex: 1,
+    backgroundColor: COLORS.dark_overlay_2,
   },
 });

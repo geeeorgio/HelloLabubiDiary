@@ -7,6 +7,7 @@ export const ICON_NAMES = [
   'quiz',
   'refresh',
   'share',
+  'friends',
 ] as const;
 
 export type IconName = (typeof ICON_NAMES)[number];

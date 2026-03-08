@@ -4,6 +4,7 @@ import {
   OnboardingScreen1,
   OnboardingScreen2,
   OnboardingScreen3,
+  OnboardingScreen4,
 } from 'src/screens';
 import type { OnboardingStackParamList } from 'src/types';
 
@@ -32,6 +33,10 @@ const OnboardingNavigator = () => {
       <OnbdStack.Screen
         name="OnboardingScreen3"
         component={OnboardingScreen3}
+      />
+      <OnbdStack.Screen
+        name="OnboardingScreen4"
+        component={OnboardingScreen4}
       />
     </OnbdStack.Navigator>
   );
