@@ -1,6 +1,12 @@
-import type { NativeStackNavigationProp } from '@react-navigation/native-stack';
+import type { BottomTabNavigationProp } from '@react-navigation/bottom-tabs';
 
-export type MainStackParamList = {};
+export type MainStackParamList = {
+  AboutScreen: undefined;
+  FactsScreen: undefined;
+  MoodScreen: undefined;
+  FriendsScreen: undefined;
+  QuizScreen: undefined;
+};
 
 export type MainStackNavigationProp =
-  NativeStackNavigationProp<MainStackParamList>;
+  BottomTabNavigationProp<MainStackParamList>;

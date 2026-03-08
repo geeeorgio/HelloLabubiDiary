@@ -1,10 +1,21 @@
-import { Text, View } from 'react-native';
+import { NavigationContainer } from '@react-navigation/native';
+import { SafeAreaProvider } from 'react-native-safe-area-context';
+
+import { GameBackground } from './components';
+import GameContextProvider from './context/GameContextProvider';
+import RootNavigator from './navigation/RootNavigator';
 
 function App() {
   return (
-    <View>
-      <Text>Hello, Labubi Diary!</Text>
-    </View>
+    <SafeAreaProvider>
+      <GameContextProvider>
+        <NavigationContainer>
+          <GameBackground>
+            <RootNavigator />
+          </GameBackground>
+        </NavigationContainer>
+      </GameContextProvider>
+    </SafeAreaProvider>
   );
 }
 export default App;

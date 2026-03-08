@@ -23,6 +23,9 @@ export const COLORS = {
   white_border: 'rgba(255, 255, 255, 0.15)',
   green_border: '#02603b',
 
+  onbd_dot_active: '#D9D9D9',
+  onbd_dot_inactive: 'rgba(217, 217, 217, 0.55)',
+
   light_overlay: 'rgba(255, 255, 255, 0.1)',
   dark_overlay: 'rgba(0, 0, 0, 0.1)',
 };

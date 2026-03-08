@@ -4,25 +4,28 @@ import { COLORS } from 'src/constants';
 import { wp } from 'src/utils';
 
 export const styles = StyleSheet.create({
-  default: {},
-  container: {
+  default: {
     borderRadius: wp(22),
-    borderWidth: wp(2),
   },
-  blue: {
-    backgroundColor: COLORS.blue_btn,
-    borderColor: COLORS.blue_border,
+  lightGreen: {
+    backgroundColor: COLORS.light_green_background,
   },
-  green: {
-    backgroundColor: COLORS.green,
-    borderColor: COLORS.green_border,
+  darkGreen: {
+    backgroundColor: COLORS.green_background,
+  },
+  mirror: {
+    backgroundColor: COLORS.light_overlay,
+  },
+  lightPink: {
+    backgroundColor: COLORS.pink,
+  },
+  darkPink: {
+    backgroundColor: COLORS.fade_pink,
   },
   red: {
-    backgroundColor: COLORS.red,
-    borderColor: COLORS.red_border,
+    backgroundColor: COLORS.quiz_red,
   },
-  yellow: {
-    backgroundColor: COLORS.yellow,
-    borderColor: COLORS.yellow_border,
+  green: {
+    backgroundColor: COLORS.quiz_green,
   },
 });

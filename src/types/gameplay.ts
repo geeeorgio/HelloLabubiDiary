@@ -1,3 +1,18 @@
+import type { FactCategoryKeys } from 'src/constants';
+
+export type FactType = {
+  id: string;
+  text: string;
+  isSaved: boolean;
+};
+
+export type FactsObjectListType = {
+  category: FactCategoryKeys;
+  facts: FactType[];
+};
+
+export type FactsCategoryType = Record<FactCategoryKeys, FactsObjectListType>;
+
 export type QuizType = {
   id: string;
   question: string;
