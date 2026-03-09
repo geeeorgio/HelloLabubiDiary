@@ -65,7 +65,6 @@ const AboutScreen = () => {
         colorVariant="transparent"
         style={styles.bottomContainer}
       >
-        <View style={styles.liquidContainer} />
         <CustomText style={styles.container_text}>
           {ABOUT_SCREEN_INFO.container_text}
         </CustomText>

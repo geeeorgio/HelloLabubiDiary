@@ -232,3 +232,7 @@ export const FactCategoryType = [
 ] as const;
 
 export type FactCategoryKeys = (typeof FactCategoryType)[number];
+
+export const FactFilterKey = ['All', ...FactCategoryType, 'Saved'] as const;
+
+export type FactsFilterKeysType = (typeof FactFilterKey)[number];

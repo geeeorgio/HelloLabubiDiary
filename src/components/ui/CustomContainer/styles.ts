@@ -29,7 +29,7 @@ export const styles = StyleSheet.create({
     backgroundColor: COLORS.quiz_green,
   },
   transparent: {
-    backgroundColor: COLORS.light_overlay,
+    backgroundColor: COLORS.liquid_overlay,
   },
   tabBar: {
     backgroundColor: COLORS.tab_bar_background,
