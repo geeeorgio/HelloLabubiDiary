@@ -1,4 +1,6 @@
-export const HAPPY_MOOD = [
+import type { MoodType } from 'src/types';
+
+export const HAPPY_MOOD: MoodType[] = [
   {
     id: 'happy_mood_1',
     description:
@@ -26,7 +28,7 @@ export const HAPPY_MOOD = [
   },
 ];
 
-export const SAD_MOOD = [
+export const SAD_MOOD: MoodType[] = [
   {
     id: 'sad_mood_1',
     description:
@@ -54,7 +56,7 @@ export const SAD_MOOD = [
   },
 ];
 
-export const ANGRY_MOOD = [
+export const ANGRY_MOOD: MoodType[] = [
   {
     id: 'angry_mood_1',
     description:
@@ -82,7 +84,7 @@ export const ANGRY_MOOD = [
   },
 ];
 
-export const OVERTHINKING_MOOD = [
+export const OVERTHINKING_MOOD: MoodType[] = [
   {
     id: 'overthinking_mood_1',
     description:
@@ -110,7 +112,7 @@ export const OVERTHINKING_MOOD = [
   },
 ];
 
-export const LAZY_MOOD = [
+export const LAZY_MOOD: MoodType[] = [
   {
     id: 'lazy_mood_1',
     description:
@@ -138,7 +140,7 @@ export const LAZY_MOOD = [
   },
 ];
 
-export const INSPIRED_MOOD = [
+export const INSPIRED_MOOD: MoodType[] = [
   {
     id: 'inspired_mood_1',
     description:
@@ -165,3 +167,25 @@ export const INSPIRED_MOOD = [
       'If you feel inspired, remember this spark came from inside you. \n You are capable of more than you think.',
   },
 ];
+
+export const MOOD_IDS_LIST = [
+  'Happy',
+  'Sad',
+  'Angry',
+  'Overthinking',
+  'Lazy',
+  'Inspired',
+] as const;
+
+export type MoodIdsTypes = (typeof MOOD_IDS_LIST)[number];
+
+export type MoodMapType = Record<MoodIdsTypes, MoodType[]>;
+
+export const MOOD_MAP: MoodMapType = {
+  Angry: ANGRY_MOOD,
+  Happy: HAPPY_MOOD,
+  Sad: SAD_MOOD,
+  Overthinking: OVERTHINKING_MOOD,
+  Lazy: LAZY_MOOD,
+  Inspired: INSPIRED_MOOD,
+};

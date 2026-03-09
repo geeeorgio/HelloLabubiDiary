@@ -1,3 +1,7 @@
+import type { ImageSourcePropType } from 'react-native';
+
+import type { MoodIdsTypes } from './mood';
+
 export const MAIN_BACKGROUND = require('src/assets/images/bckgd/bckg.png');
 
 export const CLOUD_FRAME = require('src/assets/images/bckgd/cloud_frame.png');
@@ -25,4 +29,13 @@ export const FRIENDS_IMAGES = {
   Nova: require('src/assets/images/items/nova.png'),
   Milo: require('src/assets/images/items/milo.png'),
   Rosie: require('src/assets/images/items/rosie.png'),
+};
+
+export const MOOD_IMAGES_MAP: Record<MoodIdsTypes, ImageSourcePropType> = {
+  Angry: ITEMS_IMAGES.mood_angry,
+  Happy: ITEMS_IMAGES.mood_happy,
+  Sad: ITEMS_IMAGES.mood_sad,
+  Overthinking: ITEMS_IMAGES.mood_overthinking,
+  Lazy: ITEMS_IMAGES.mood_lazy,
+  Inspired: ITEMS_IMAGES.mood_inspired,
 };

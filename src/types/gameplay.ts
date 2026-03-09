@@ -24,3 +24,8 @@ export type ThoughtsType = {
   id: string;
   text: string;
 };
+
+export type MoodType = {
+  id: string;
+  description: string;
+};
