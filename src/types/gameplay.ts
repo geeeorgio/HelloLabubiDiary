@@ -15,13 +15,6 @@ export type FactsObjectListType = {
 
 export type FactsCategoryType = Record<FactCategoryKeys, FactsObjectListType>;
 
-export type QuizType = {
-  id: string;
-  question: string;
-  options: string[];
-  correctValue: string;
-};
-
 export type ThoughtsType = {
   id: string;
   text: string;
@@ -37,4 +30,21 @@ export type FriendType = {
   description: string;
   btnText: string;
   image: ImageSourcePropType;
+};
+
+export type QuizStatusType = 'setup' | 'pending' | 'completed';
+
+export type QuizType = {
+  id: string;
+  question: string;
+  options: string[];
+  correctValue: string;
+};
+
+export type QuizModeStateType = {
+  currentQuestionIdx: number;
+  correctAnswers: number;
+  totalQuestions: number;
+  quizList: QuizType[];
+  time: number;
 };

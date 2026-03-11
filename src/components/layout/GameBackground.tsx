@@ -9,6 +9,7 @@ const GameBackground = ({ children }: { children: React.ReactNode }) => {
       source={MAIN_BACKGROUND}
       style={styles.background}
       resizeMode="cover"
+      blurRadius={4}
     >
       <SafeAreaView style={styles.content}>{children}</SafeAreaView>
     </ImageBackground>

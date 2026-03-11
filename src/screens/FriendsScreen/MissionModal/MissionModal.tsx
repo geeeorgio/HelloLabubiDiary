@@ -3,12 +3,14 @@ import { Modal, TouchableOpacity, View } from 'react-native';
 import { styles } from './styles';
 
 import { CustomButton, CustomContainer, CustomText } from 'src/components';
+import { COLORS } from 'src/constants';
 
 interface MissionModalProps {
   isVisible: boolean;
   onClose: () => void;
   onConfirm: () => void;
   mission: string;
+  type?: 'mission' | 'quiz';
 }
 
 const MissionModal = ({
@@ -16,6 +18,7 @@ const MissionModal = ({
   onClose,
   onConfirm,
   mission,
+  type = 'mission',
 }: MissionModalProps) => {
   return (
     <Modal
@@ -42,7 +45,14 @@ const MissionModal = ({
               style={styles.modalButton}
               onPress={onConfirm}
             >
-              <CustomText style={styles.modalButtonText}>Done!</CustomText>
+              <CustomText
+                style={[
+                  styles.modalButtonText,
+                  type === 'quiz' && { color: COLORS.red },
+                ]}
+              >
+                {type === 'mission' ? 'Done!' : 'Leave'}
+              </CustomText>
             </CustomButton>
 
             <View style={styles.divider} />
@@ -50,9 +60,11 @@ const MissionModal = ({
             <CustomButton
               variant="darkGreen"
               style={styles.modalButton}
-              onPress={onConfirm}
+              onPress={onClose}
             >
-              <CustomText style={styles.modalButtonText}>Cancel</CustomText>
+              <CustomText style={styles.modalButtonText}>
+                {type === 'mission' ? 'Cancel' : 'Back to quiz'}
+              </CustomText>
             </CustomButton>
           </CustomContainer>
         </View>

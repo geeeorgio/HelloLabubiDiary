@@ -1,6 +1,7 @@
 export const COLORS = {
   white: '#FFFFFF',
   black: '#000000',
+  red: '#ff5252',
   pink: '#FF74B2',
   fade_pink: 'rgba(255, 92, 163, 0.5)',
   deep_pink: '#CD558A',
