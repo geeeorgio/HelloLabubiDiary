@@ -1,3 +1,5 @@
+import type { ImageSourcePropType } from 'react-native';
+
 import type { FactCategoryKeys } from 'src/constants';
 
 export type FactType = {
@@ -28,4 +30,11 @@ export type ThoughtsType = {
 export type MoodType = {
   id: string;
   description: string;
+};
+
+export type FriendType = {
+  title: string;
+  description: string;
+  btnText: string;
+  image: ImageSourcePropType;
 };

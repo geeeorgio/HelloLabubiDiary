@@ -30,5 +30,6 @@ export const COLORS = {
   light_overlay: 'rgba(255, 255, 255, 0.1)',
   dark_overlay: 'rgba(0, 0, 0, 0.1)',
   dark_overlay_2: 'rgba(0, 0, 0, 0.3)',
+  dark_overlay_3: 'rgba(0, 0, 0, 0.5)',
   liquid_overlay: 'rgba(50, 50, 50, 0.3)',
 };

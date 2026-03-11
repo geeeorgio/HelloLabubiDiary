@@ -1,3 +1,7 @@
+import { FRIENDS_IMAGES } from './images';
+
+import type { FriendType } from 'src/types';
+
 export const ONBOARDING_INFO = {
   onboarding1: {
     title: 'Meet Labubi 💫',
@@ -50,23 +54,32 @@ export const FRIENDS_SCREEN_INFO = {
     'Meet Labubi’s friends and receive a tiny mission from them each day.',
 };
 
-export const MILO_INFO = {
+export const MILO_INFO: FriendType = {
   title: 'Milo',
   description:
-    'Milo is calm, thoughtful, and observant. \nHe notices the small details and helps you slow down when everything feels loud. \n\nHe believes in deep breaths, quiet strength, and gentle boundaries. \n\nHis missions are mindful — small pauses that bring clarity. \n\nMilo helps you think before you move.',
+    'Milo is calm, thoughtful, and observant.\nHe notices the small details and helps you slow down when everything feels loud.\n\nHe believes in deep breaths, quiet strength, and gentle boundaries.\n\nHis missions are mindful — small pauses that bring clarity.\n\nMilo helps you think before you move.',
   btnText: 'Get a mission from',
+  image: FRIENDS_IMAGES.Milo,
 };
 
-export const ROSIE_INFO = {
+export const ROSIE_INFO: FriendType = {
   title: 'Rosie',
   description:
-    'Rosie is confident, bold, and warm. \nShe believes you deserve space, attention, and courage. \n\nShe pushes you to try, speak up, and act — even if you feel unsure. \n\nHer missions are brave little steps forward. \n\nRosie helps you move without fear.',
+    'Rosie is confident, bold, and warm.\nShe believes you deserve space, attention, and courage.\nShe pushes you to try, speak up, and act — even if you feel unsure.\n\nHer missions are brave little steps forward.\n\nRosie helps you move without fear.',
   btnText: 'Get a mission from',
+  image: FRIENDS_IMAGES.Rosie,
 };
 
-export const NOVA_INFO = {
+export const NOVA_INFO: FriendType = {
   title: 'Nova',
   description:
-    'Nova is intuitive, creative, and a little mysterious. \n She feels deeply but hides it behind a playful smirk. \n\nShe understands overthinking, late-night thoughts, and quiet dreams. \n\nHer missions are reflective — notice your feelings, protect your energy, trust your instincts. \n\nNova helps you feel without judgment.',
+    'Nova is intuitive, creative, and a little mysterious.\nShe feels deeply but hides it behind a playful smirk.\nShe understands overthinking, late-night thoughts, and quiet dreams.\n\nHer missions are reflective — notice your feelings, protect your energy, trust your instincts.\n\nNova helps you feel without judgment.',
   btnText: 'Get a mission from',
+  image: FRIENDS_IMAGES.Nova,
 };
+
+export const FRIENDS_LIST: FriendType[] = [
+  { ...MILO_INFO },
+  { ...ROSIE_INFO },
+  { ...NOVA_INFO },
+];
