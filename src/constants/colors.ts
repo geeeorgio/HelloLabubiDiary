@@ -3,6 +3,7 @@ export const COLORS = {
   black: '#000000',
   pink: '#FF74B2',
   fade_pink: 'rgba(255, 92, 163, 0.5)',
+  deep_pink: '#CD558A',
 
   quiz_pink: 'rgba(230, 11, 109, 0.6)',
   quiz_red: 'rgba(255, 9, 9, 0.6)',

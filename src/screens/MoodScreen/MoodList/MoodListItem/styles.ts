@@ -6,7 +6,7 @@ import { hp, sp, wp } from 'src/utils';
 export const styles = StyleSheet.create({
   item: {
     flex: 1,
-    height: hp(150),
+    height: hp(160),
     justifyContent: 'space-between',
     alignItems: 'center',
   },
@@ -28,9 +28,13 @@ export const styles = StyleSheet.create({
     width: '100%',
     justifyContent: 'center',
     alignItems: 'center',
+    borderRadius: wp(22),
+    borderWidth: wp(1),
+    borderColor: COLORS.white_border,
+    paddingVertical: hp(4),
   },
   text: {
-    fontSize: sp(12),
+    fontSize: sp(11),
     textAlign: 'center',
   },
 });

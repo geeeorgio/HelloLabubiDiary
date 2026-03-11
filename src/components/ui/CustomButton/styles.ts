@@ -30,4 +30,7 @@ export const styles = StyleSheet.create({
   green: {
     backgroundColor: COLORS.quiz_green,
   },
+  deepPink: {
+    backgroundColor: COLORS.deep_pink,
+  },
 });

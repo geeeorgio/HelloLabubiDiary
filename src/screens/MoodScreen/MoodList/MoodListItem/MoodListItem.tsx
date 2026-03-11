@@ -21,6 +21,7 @@ const MoodListItem = ({ item, handleChangeMood }: MoodListItemProps) => {
         />
       </CustomContainer>
       <CustomButton
+        variant="deepPink"
         style={styles.button}
         onPress={() => handleChangeMood(item)}
       >

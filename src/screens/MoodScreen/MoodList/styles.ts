@@ -6,13 +6,11 @@ export const styles = StyleSheet.create({
   list: {
     flex: 1,
     width: '100%',
-    borderWidth: 1,
-    borderColor: 'red',
   },
   contentContainer: {
-    gap: wp(16),
+    gap: hp(14),
   },
   columnWrapper: {
-    gap: hp(10),
+    gap: wp(8),
   },
 });

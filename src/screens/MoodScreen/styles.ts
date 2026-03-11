@@ -7,10 +7,8 @@ export const styles = StyleSheet.create({
   container: {
     flex: 1,
     width: '100%',
-    paddingHorizontal: wp(16),
+    paddingHorizontal: wp(12),
     gap: hp(16),
-    borderWidth: wp(1),
-    borderColor: COLORS.white,
   },
   header: {
     width: '100%',
@@ -18,6 +16,7 @@ export const styles = StyleSheet.create({
     borderWidth: wp(1),
     borderColor: COLORS.white_border,
     borderRadius: wp(22),
+    marginBottom: hp(10),
   },
   title: {
     fontSize: sp(16),
@@ -26,5 +25,11 @@ export const styles = StyleSheet.create({
     fontSize: sp(12),
     fontFamily: FONTS.Light,
     color: COLORS.description_text,
+  },
+  backArrow: {
+    width: wp(33),
+    aspectRatio: 1,
+    justifyContent: 'center',
+    alignItems: 'center',
   },
 });
