@@ -6,10 +6,9 @@ import { hp, wp } from 'src/utils';
 export const styles = StyleSheet.create({
   container: {
     width: '100%',
-    paddingHorizontal: wp(16),
     gap: hp(8),
-    paddingTop: hp(8),
     paddingBottom: hp(100),
+    paddingTop: hp(8),
   },
   topContainer: {
     borderWidth: wp(1),

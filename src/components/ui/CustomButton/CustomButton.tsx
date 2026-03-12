@@ -13,6 +13,7 @@ interface CustomButtonProps extends PressableProps {
     | 'darkPink'
     | 'red'
     | 'green'
+    | 'quizPink'
     | 'deepPink';
 }
 

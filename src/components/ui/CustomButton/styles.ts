@@ -26,11 +26,23 @@ export const styles = StyleSheet.create({
   },
   red: {
     backgroundColor: COLORS.quiz_red,
+    borderWidth: wp(1),
+    borderColor: COLORS.red,
+    borderRadius: wp(22),
   },
   green: {
     backgroundColor: COLORS.quiz_green,
+    borderWidth: wp(1),
+    borderColor: COLORS.green_border,
+    borderRadius: wp(22),
   },
   deepPink: {
     backgroundColor: COLORS.deep_pink,
+  },
+  quizPink: {
+    borderWidth: wp(1),
+    backgroundColor: COLORS.quiz_pink,
+    borderColor: COLORS.deep_pink,
+    borderRadius: wp(22),
   },
 });

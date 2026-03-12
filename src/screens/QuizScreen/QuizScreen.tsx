@@ -52,12 +52,18 @@ const QuizScreen = () => {
 
   const handleConfirmLeave = useCallback(() => {
     setIsModalVisible(false);
+
     setQuizStatus('setup');
     navigation.reset({
       index: 0,
       routes: [{ name: 'AboutScreen' }],
     });
   }, [navigation]);
+
+  const handleStartAgain = useCallback(() => {
+    setQuizStatus('setup');
+    setQuizState(initialQuizState());
+  }, []);
 
   return (
     <View style={styles.container}>
@@ -66,12 +72,20 @@ const QuizScreen = () => {
       {quizStatus === 'pending' && (
         <QuizGame
           quizState={quizState}
+          setQuizState={setQuizState}
           onModalOpen={hadleOpenModal}
           onQuizComplete={handleQuizComplete}
+          isModalVisible={isModalVisible}
         />
       )}
 
-      {quizStatus === 'completed' && <QuizResult />}
+      {quizStatus === 'completed' && (
+        <QuizResult
+          resultState={quizState}
+          onExit={handleConfirmLeave}
+          onStartAgain={handleStartAgain}
+        />
+      )}
 
       <MissionModal
         isVisible={isModalVisible}
