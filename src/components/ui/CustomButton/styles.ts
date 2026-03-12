@@ -23,17 +23,19 @@ export const styles = StyleSheet.create({
   },
   darkPink: {
     backgroundColor: COLORS.fade_pink,
+    borderWidth: wp(2),
+    borderColor: COLORS.white_border,
   },
   red: {
     backgroundColor: COLORS.quiz_red,
     borderWidth: wp(1),
-    borderColor: COLORS.red,
+    borderColor: COLORS.white_border,
     borderRadius: wp(22),
   },
   green: {
     backgroundColor: COLORS.quiz_green,
     borderWidth: wp(1),
-    borderColor: COLORS.green_border,
+    borderColor: COLORS.quiz_green,
     borderRadius: wp(22),
   },
   deepPink: {

@@ -8,7 +8,7 @@ export const styles = StyleSheet.create({
     width: '100%',
   },
   contentContainer: {
-    gap: hp(14),
+    gap: hp(12),
   },
   columnWrapper: {
     gap: wp(8),

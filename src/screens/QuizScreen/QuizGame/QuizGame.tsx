@@ -91,10 +91,10 @@ const QuizGame = ({
 
     timerRef.current = setInterval(() => {
       setTimeLeft((prev) => {
-        if (prev <= 111) return 0;
-        return prev - 111;
+        if (prev <= 100) return 0;
+        return prev - 100;
       });
-    }, 111);
+    }, 100);
 
     return () => {
       if (timerRef.current) clearInterval(timerRef.current);

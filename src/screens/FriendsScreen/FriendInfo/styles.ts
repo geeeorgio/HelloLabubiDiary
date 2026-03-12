@@ -5,10 +5,9 @@ import { hp, sp, wp } from 'src/utils';
 
 export const styles = StyleSheet.create({
   container: {
-    flex: 1,
     width: '100%',
     paddingHorizontal: wp(6),
-    gap: hp(6),
+    gap: hp(2),
   },
   imgContainer: {
     width: '100%',
@@ -20,26 +19,29 @@ export const styles = StyleSheet.create({
   },
   descriptionContainer: {
     width: '100%',
-    borderWidth: 1,
-    borderColor: 'green',
-    padding: wp(12),
+    paddingHorizontal: wp(16),
+    paddingVertical: wp(8),
     justifyContent: 'center',
     alignItems: 'center',
     borderRadius: wp(22),
   },
   description: {
-    fontSize: sp(12),
+    fontSize: sp(11),
     fontFamily: FONTS.Light,
     textAlign: 'left',
   },
   button: {
-    width: '100%',
+    alignSelf: 'center',
+    marginTop: hp(8),
+    width: '90%',
     borderRadius: wp(22),
-    paddingVertical: wp(8),
+    paddingVertical: hp(6),
     justifyContent: 'center',
     alignItems: 'center',
   },
   buttonText: {
-    fontSize: sp(16),
+    fontSize: sp(14),
+    fontFamily: FONTS.SemiBold,
+    textAlign: 'center',
   },
 });

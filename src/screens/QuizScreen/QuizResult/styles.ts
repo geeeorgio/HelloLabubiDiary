@@ -6,9 +6,10 @@ import { hp, wp } from 'src/utils';
 export const styles = StyleSheet.create({
   container: {
     width: '100%',
-    gap: hp(12),
+    gap: hp(10),
   },
   header: {
+    marginTop: hp(6),
     width: '100%',
     flexDirection: 'row',
     alignItems: 'center',
@@ -21,7 +22,7 @@ export const styles = StyleSheet.create({
   },
   title: {
     flex: 1,
-    fontSize: hp(20),
+    fontSize: hp(18),
     textAlign: 'center',
   },
   statsContainer: {

@@ -5,7 +5,6 @@ import { hp, sp, wp } from 'src/utils';
 
 export const styles = StyleSheet.create({
   container: {
-    flex: 1,
     width: '100%',
     gap: hp(10),
   },
@@ -19,15 +18,15 @@ export const styles = StyleSheet.create({
   },
   infoContainer: {
     width: '100%',
-    height: '20%',
+    height: '25%',
     justifyContent: 'center',
     alignItems: 'center',
     paddingVertical: hp(10),
-    paddingHorizontal: wp(16),
+    paddingHorizontal: wp(20),
     borderRadius: wp(22),
   },
   infoText: {
-    fontSize: sp(14),
+    fontSize: sp(12),
     fontFamily: FONTS.Light,
     textAlign: 'center',
   },

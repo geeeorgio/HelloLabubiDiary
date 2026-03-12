@@ -31,7 +31,7 @@ export const styles = StyleSheet.create({
     paddingRight: '20%',
   },
   text: {
-    fontSize: sp(14),
+    fontSize: sp(12),
     fontFamily: FONTS.Light,
   },
   thingContainer: {

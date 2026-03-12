@@ -12,11 +12,12 @@ export const styles = StyleSheet.create({
   },
   header: {
     width: '100%',
-    padding: wp(16),
+    paddingVertical: hp(16),
+    paddingHorizontal: wp(20),
     borderWidth: wp(1),
     borderColor: COLORS.white_border,
     borderRadius: wp(22),
-    marginBottom: hp(10),
+    marginTop: hp(10),
   },
   title: {
     fontSize: sp(16),
@@ -27,7 +28,8 @@ export const styles = StyleSheet.create({
     color: COLORS.description_text,
   },
   backArrow: {
-    width: wp(33),
+    marginTop: hp(6),
+    width: wp(40),
     aspectRatio: 1,
     justifyContent: 'center',
     alignItems: 'center',

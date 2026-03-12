@@ -19,10 +19,10 @@ export const styles = StyleSheet.create({
     borderColor: COLORS.description_text,
   },
   title: {
-    fontSize: hp(17),
+    fontSize: hp(16),
   },
   description: {
-    fontSize: hp(14),
+    fontSize: hp(12),
     fontFamily: FONTS.Light,
   },
   bottomContainer: {
@@ -35,7 +35,7 @@ export const styles = StyleSheet.create({
   },
   imgContainer: {
     width: '100%',
-    height: hp(310),
+    height: hp(300),
     justifyContent: 'center',
     alignItems: 'center',
   },
@@ -55,6 +55,7 @@ export const styles = StyleSheet.create({
   },
   btnText: {
     fontSize: hp(16),
+    fontFamily: FONTS.SemiBold,
     textAlign: 'center',
   },
 });

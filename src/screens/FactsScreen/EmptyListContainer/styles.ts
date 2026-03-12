@@ -29,7 +29,7 @@ export const styles = StyleSheet.create({
     padding: wp(16),
   },
   title: {
-    fontSize: sp(14),
+    fontSize: sp(12),
     fontFamily: FONTS.Light,
     textAlign: 'center',
   },

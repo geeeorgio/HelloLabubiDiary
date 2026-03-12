@@ -13,7 +13,10 @@ interface FriendsListProps {
 
 const FriendsList = ({ data, handleFriendPress }: FriendsListProps) => {
   return (
-    <ScrollView contentContainerStyle={styles.list}>
+    <ScrollView
+      contentContainerStyle={styles.list}
+      showsVerticalScrollIndicator={false}
+    >
       {data.map((item) => (
         <FriendItem
           key={item.title}

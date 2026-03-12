@@ -30,11 +30,11 @@ export const styles = StyleSheet.create({
     paddingVertical: hp(16),
     borderWidth: wp(1),
     borderRadius: wp(22),
-    borderColor: COLORS.onboarding_text,
-    gap: hp(10),
+    borderColor: COLORS.onbd_dot_inactive,
+    gap: hp(16),
   },
   modalTitle: {
-    fontSize: sp(16),
+    fontSize: sp(14),
     fontFamily: FONTS.Light,
     textAlign: 'center',
   },
@@ -45,12 +45,13 @@ export const styles = StyleSheet.create({
   },
   modalButtonText: {
     fontSize: sp(16),
-    fontFamily: FONTS.Light,
+    fontFamily: FONTS.SemiBold,
+    color: COLORS.modal_pink,
   },
   divider: {
     width: '100%',
     height: hp(1),
-    backgroundColor: COLORS.pink,
+    backgroundColor: COLORS.deep_pink,
     borderRadius: '100%',
   },
 });

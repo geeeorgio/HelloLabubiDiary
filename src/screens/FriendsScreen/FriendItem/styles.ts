@@ -6,7 +6,7 @@ import { hp, sp, wp } from 'src/utils';
 export const styles = StyleSheet.create({
   item: {
     width: '100%',
-    height: hp(145),
+    height: hp(150),
     flexDirection: 'row',
     gap: wp(6),
     marginBottom: hp(8),
@@ -42,7 +42,7 @@ export const styles = StyleSheet.create({
     fontSize: sp(15),
   },
   description: {
-    fontSize: sp(12),
+    fontSize: sp(11),
     fontFamily: FONTS.Light,
   },
   button: {
@@ -55,6 +55,8 @@ export const styles = StyleSheet.create({
     borderColor: COLORS.white_border,
   },
   buttonText: {
-    fontSize: sp(14),
+    fontSize: sp(12),
+    fontFamily: FONTS.SemiBold,
+    textAlign: 'center',
   },
 });

@@ -6,7 +6,7 @@ import { hp, sp, wp } from 'src/utils';
 export const styles = StyleSheet.create({
   item: {
     flex: 1,
-    height: hp(160),
+    height: hp(180),
     justifyContent: 'space-between',
     alignItems: 'center',
   },

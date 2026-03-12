@@ -21,12 +21,12 @@ export const styles = StyleSheet.create({
   },
   title: {
     flex: 1,
-    fontSize: hp(20),
+    fontSize: hp(16),
     textAlign: 'center',
   },
   questionContainer: {
     width: '100%',
-    height: hp(120),
+    height: hp(110),
     padding: wp(20),
     borderWidth: wp(1),
     borderColor: COLORS.white_border,
@@ -35,7 +35,7 @@ export const styles = StyleSheet.create({
     alignItems: 'center',
   },
   questionText: {
-    fontSize: hp(16),
+    fontSize: hp(15),
     textAlign: 'center',
   },
   optionsContainer: {
@@ -55,7 +55,7 @@ export const styles = StyleSheet.create({
     alignItems: 'center',
   },
   optionImgWrapper: {
-    flex: 0.33,
+    flex: 0.3,
     height: '100%',
     justifyContent: 'center',
     alignItems: 'center',
@@ -65,8 +65,8 @@ export const styles = StyleSheet.create({
     height: '100%',
   },
   optionText: {
-    flex: 0.67,
-    fontSize: sp(14),
+    flex: 0.7,
+    fontSize: sp(12),
     fontFamily: FONTS.Light,
   },
 });

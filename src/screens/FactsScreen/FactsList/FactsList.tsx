@@ -28,6 +28,7 @@ const FactsList = ({ data, handlePress }: FactsListProps) => {
       contentContainerStyle={styles.contentContainer}
       style={styles.list}
       ListFooterComponent={<View style={styles.footer} />}
+      initialNumToRender={10}
     />
   );
 };
