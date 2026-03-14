@@ -81,7 +81,7 @@ const QuizResult = ({ resultState, onExit, onStartAgain }: QuizResultProps) => {
 
         <View style={styles.finalScoreContainer}>
           <View style={styles.answersTextContainer}>
-            <CustomText style={styles.scoreText}>You know Zest for</CustomText>
+            <CustomText style={styles.scoreText}>You know Ace for</CustomText>
             <CustomText style={styles.scoreText}>
               {correctAnswersPercentage}%
             </CustomText>

@@ -41,7 +41,7 @@ const MissionModal = ({
             <View style={styles.divider} />
 
             <CustomButton
-              variant="darkGreen"
+              variant="default"
               style={styles.modalButton}
               onPress={onConfirm}
             >
@@ -58,7 +58,7 @@ const MissionModal = ({
             <View style={styles.divider} />
 
             <CustomButton
-              variant="darkGreen"
+              variant="default"
               style={styles.modalButton}
               onPress={onClose}
             >

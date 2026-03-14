@@ -46,12 +46,12 @@ export const styles = StyleSheet.create({
   modalButtonText: {
     fontSize: sp(16),
     fontFamily: FONTS.SemiBold,
-    color: COLORS.modal_pink,
+    color: COLORS.white,
   },
   divider: {
     width: '100%',
     height: hp(1),
-    backgroundColor: COLORS.deep_pink,
+    backgroundColor: COLORS.white_border,
     borderRadius: '100%',
   },
 });

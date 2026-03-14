@@ -52,7 +52,7 @@ export const styles = StyleSheet.create({
     paddingVertical: wp(6),
     paddingHorizontal: wp(12),
     borderColor: COLORS.onbd_dot_inactive,
-    backgroundColor: COLORS.deep_pink,
+    backgroundColor: COLORS.green_border,
   },
   btnText: {
     fontSize: hp(16),

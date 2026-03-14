@@ -44,7 +44,7 @@ export const styles = StyleSheet.create({
     flex: 0.55,
     fontSize: sp(12),
     fontFamily: FONTS.Light,
-    color: COLORS.description_text,
+    color: COLORS.white,
     textAlign: 'left',
   },
   bottomContainer: {

@@ -5,7 +5,7 @@ export const PERSONALITY_FACTS: FactsObjectListType = {
   facts: [
     {
       id: 'personality_1',
-      text: 'Zest feels everything deeply — even the smallest things leave quiet traces in his heart.',
+      text: 'Ace feels everything deeply — even the smallest things leave quiet traces in his heart.',
       isSaved: false,
     },
     {
@@ -61,7 +61,7 @@ export const HABITS_AND_LITTLE_THINGS_FACTS: FactsObjectListType = {
   facts: [
     {
       id: 'habits_and_little_things_1',
-      text: 'Zest collects small shiny things, as if they hold pieces of stories.',
+      text: 'Ace collects small shiny things, as if they hold pieces of stories.',
       isSaved: false,
     },
     {
@@ -117,7 +117,7 @@ export const FEELINGS_EMOTIONS_FACTS: FactsObjectListType = {
   facts: [
     {
       id: 'feelings_emotions_1',
-      text: 'Zest feels happiest in calm places where nothing rushes him.',
+      text: 'Ace feels happiest in calm places where nothing rushes him.',
       isSaved: false,
     },
     {
@@ -173,7 +173,7 @@ export const HER_LITTLE_WORLD_FACTS: FactsObjectListType = {
   facts: [
     {
       id: 'her_little_world_1',
-      text: 'In Zest’s world, stars don’t just shine — they whisper secrets.',
+      text: 'In Ace’s world, stars don’t just shine — they whisper secrets.',
       isSaved: false,
     },
     {

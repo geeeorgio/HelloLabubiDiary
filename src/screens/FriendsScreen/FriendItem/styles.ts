@@ -19,7 +19,7 @@ export const styles = StyleSheet.create({
     overflow: 'hidden',
     borderWidth: wp(1),
     borderColor: COLORS.onbd_dot_inactive,
-    backgroundColor: COLORS.liquid_overlay,
+    backgroundColor: COLORS.dark_overlay,
   },
   image: {
     width: '100%',

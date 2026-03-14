@@ -20,7 +20,7 @@ const EmptyListContainer = () => {
         style={styles.contentContainer}
       >
         <CustomText style={styles.title}>
-          No saved facts about Zest yet — start collecting his little truths.
+          No saved facts about Ace yet — start collecting his little truths.
         </CustomText>
       </CustomContainer>
     </View>

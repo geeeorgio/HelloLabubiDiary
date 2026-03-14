@@ -18,7 +18,10 @@ const FriendItem = ({ item, handleFriendPress }: FriendItemProps) => {
         <Image source={item.image} style={styles.image} resizeMode="contain" />
       </CustomContainer>
       <View style={styles.infoContainer}>
-        <CustomContainer colorVariant="darkGreen" style={styles.titleContainer}>
+        <CustomContainer
+          colorVariant="lightGreen"
+          style={styles.titleContainer}
+        >
           <CustomText style={styles.title}>{item.title}</CustomText>
           <CustomText
             style={styles.description}
@@ -30,7 +33,7 @@ const FriendItem = ({ item, handleFriendPress }: FriendItemProps) => {
         </CustomContainer>
 
         <CustomButton
-          variant="deepPink"
+          variant="lightPink"
           style={styles.button}
           onPress={() => handleFriendPress(item)}
         >

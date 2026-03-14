@@ -25,7 +25,7 @@ export const styles = StyleSheet.create({
   description: {
     fontSize: sp(12),
     fontFamily: FONTS.Light,
-    color: COLORS.description_text,
+    color: COLORS.white,
   },
   backArrow: {
     marginTop: hp(6),

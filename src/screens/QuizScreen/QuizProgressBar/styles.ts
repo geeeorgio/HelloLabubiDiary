@@ -14,6 +14,6 @@ export const styles = StyleSheet.create({
   },
   progressBarFill: {
     height: '100%',
-    backgroundColor: COLORS.pink,
+    backgroundColor: COLORS.deep_pink,
   },
 });

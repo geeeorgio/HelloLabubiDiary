@@ -143,7 +143,7 @@ const QuizGame = ({
       </View>
 
       <CustomContainer
-        colorVariant="darkGreen"
+        colorVariant="lightGreen"
         style={styles.questionContainer}
       >
         <CustomText style={styles.questionText}>
