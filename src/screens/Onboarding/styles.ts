@@ -42,7 +42,7 @@ export const styles = StyleSheet.create({
     fontSize: sp(12),
     textAlign: 'center',
     fontFamily: FONTS.Light,
-    color: COLORS.onboarding_text,
+    color: COLORS.white,
   },
   button: {
     width: '100%',
