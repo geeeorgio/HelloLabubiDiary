@@ -18,8 +18,8 @@ export const styles = StyleSheet.create({
     padding: wp(2),
     overflow: 'hidden',
     borderWidth: wp(1),
-    borderColor: COLORS.green_border,
-    backgroundColor: COLORS.light_overlay,
+    borderColor: COLORS.onbd_dot_inactive,
+    backgroundColor: COLORS.liquid_overlay,
   },
   image: {
     width: '100%',

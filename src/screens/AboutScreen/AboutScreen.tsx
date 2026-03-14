@@ -45,7 +45,7 @@ const AboutScreen = () => {
 
   return (
     <View style={styles.container}>
-      <CustomContainer colorVariant="darkGreen" style={styles.mainContainer}>
+      <CustomContainer colorVariant="transparent" style={styles.mainContainer}>
         <CustomText style={styles.title}>{ABOUT_SCREEN_INFO.title}</CustomText>
         <View style={styles.descriptionContainer}>
           <View style={styles.descriptionImgContainer}>

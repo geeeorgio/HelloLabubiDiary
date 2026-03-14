@@ -17,8 +17,8 @@ export const styles = StyleSheet.create({
     padding: wp(2),
     overflow: 'hidden',
     borderWidth: wp(1),
-    borderColor: COLORS.green_border,
-    backgroundColor: COLORS.light_overlay,
+    borderColor: COLORS.onbd_dot_inactive,
+    backgroundColor: COLORS.liquid_overlay,
   },
   image: {
     width: '100%',
@@ -30,7 +30,7 @@ export const styles = StyleSheet.create({
     alignItems: 'center',
     borderRadius: wp(22),
     borderWidth: wp(1),
-    borderColor: COLORS.white_border,
+    borderColor: COLORS.onbd_dot_inactive,
     paddingVertical: hp(4),
   },
   text: {

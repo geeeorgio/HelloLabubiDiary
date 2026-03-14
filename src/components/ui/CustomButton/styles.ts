@@ -43,7 +43,7 @@ export const styles = StyleSheet.create({
   },
   quizPink: {
     borderWidth: wp(1),
-    backgroundColor: COLORS.quiz_pink,
+    backgroundColor: COLORS.light_green_background,
     borderColor: COLORS.deep_pink,
     borderRadius: wp(22),
   },

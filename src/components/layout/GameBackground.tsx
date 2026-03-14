@@ -9,7 +9,7 @@ const GameBackground = ({ children }: { children: React.ReactNode }) => {
       source={MAIN_BACKGROUND}
       style={styles.background}
       resizeMode="cover"
-      blurRadius={4}
+      // blurRadius={4}
     >
       <SafeAreaView style={styles.content}>{children}</SafeAreaView>
     </ImageBackground>
@@ -24,6 +24,6 @@ const styles = StyleSheet.create({
   },
   content: {
     flex: 1,
-    backgroundColor: COLORS.dark_overlay_2,
+    backgroundColor: COLORS.dark_overlay,
   },
 });

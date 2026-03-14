@@ -44,7 +44,7 @@ const FactsScreen = () => {
   return (
     <View style={styles.container}>
       <CustomContainer colorVariant="darkGreen" style={styles.header}>
-        <CustomText style={styles.headerText}>Facts about Labubi</CustomText>
+        <CustomText style={styles.headerText}>Facts about Zest</CustomText>
       </CustomContainer>
 
       <View>

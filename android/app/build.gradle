@@ -79,7 +79,7 @@ android {
 
     namespace "com.hellolabubidiary"
     defaultConfig {
-        applicationId "com.hellolabubidiary"
+        applicationId "com.juicymoodfruit"
         minSdkVersion rootProject.ext.minSdkVersion
         targetSdkVersion rootProject.ext.targetSdkVersion
         versionCode 1

@@ -51,7 +51,8 @@ export const styles = StyleSheet.create({
     borderRadius: wp(22),
     paddingVertical: wp(6),
     paddingHorizontal: wp(12),
-    borderColor: COLORS.white_border,
+    borderColor: COLORS.onbd_dot_inactive,
+    backgroundColor: COLORS.deep_pink,
   },
   btnText: {
     fontSize: hp(16),

@@ -13,7 +13,7 @@ export const styles = StyleSheet.create({
   },
   imageContainer: {
     width: '100%',
-    height: '44%',
+    height: '50%',
     alignItems: 'center',
     justifyContent: 'center',
   },

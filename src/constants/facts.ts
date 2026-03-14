@@ -5,52 +5,52 @@ export const PERSONALITY_FACTS: FactsObjectListType = {
   facts: [
     {
       id: 'personality_1',
-      text: 'Labubi feels everything deeply — even the smallest things leave quiet traces in her heart.',
+      text: 'Zest feels everything deeply — even the smallest things leave quiet traces in his heart.',
       isSaved: false,
     },
     {
       id: 'personality_2',
-      text: 'She smiles easily, but behind that smile there are always layers of thoughts.',
+      text: 'He smiles easily, but behind that smile there are always layers of thoughts.',
       isSaved: false,
     },
     {
       id: 'personality_3',
-      text: 'She often overthinks before she speaks, choosing her words carefully.',
+      text: 'He often overthinks before he speaks, choosing his words carefully.',
       isSaved: false,
     },
     {
       id: 'personality_4',
-      text: 'Silence doesn’t scare her — sometimes it feels safer than noise.',
+      text: 'Silence doesn’t scare him — sometimes it feels safer than noise.',
       isSaved: false,
     },
     {
       id: 'personality_5',
-      text: 'She notices tiny details that most others would walk past.',
+      text: 'He notices tiny details that most others would walk past.',
       isSaved: false,
     },
     {
       id: 'personality_6',
-      text: 'She forgives gently, but she never truly forgets how something made her feel.',
+      text: 'He forgives gently, but he never truly forgets how something made him feel.',
       isSaved: false,
     },
     {
       id: 'personality_7',
-      text: 'When she needs clarity, she talks softly to herself.',
+      text: 'When he needs clarity, he talks softly to himself.',
       isSaved: false,
     },
     {
       id: 'personality_8',
-      text: 'She needs time alone to recharge her emotional energy.',
+      text: 'He needs time alone to recharge his emotional energy.',
       isSaved: false,
     },
     {
       id: 'personality_9',
-      text: 'She believes kindness is a quiet form of everyday magic.',
+      text: 'He believes kindness is a quiet form of everyday magic.',
       isSaved: false,
     },
     {
       id: 'personality_10',
-      text: 'She is soft by nature — but stronger than she looks.',
+      text: 'He is soft by nature — but stronger than he looks.',
       isSaved: false,
     },
   ],
@@ -61,52 +61,52 @@ export const HABITS_AND_LITTLE_THINGS_FACTS: FactsObjectListType = {
   facts: [
     {
       id: 'habits_and_little_things_1',
-      text: 'Labubi collects small shiny things, as if they hold pieces of stories.',
+      text: 'Zest collects small shiny things, as if they hold pieces of stories.',
       isSaved: false,
     },
     {
       id: 'habits_and_little_things_2',
-      text: 'She keeps her thoughts in imaginary jars, carefully labeled in her mind.',
+      text: 'He keeps his thoughts in imaginary jars, carefully labeled in his mind.',
       isSaved: false,
     },
     {
       id: 'habits_and_little_things_3',
-      text: 'She loves watching the sky change colors at the end of the day.',
+      text: 'He loves watching the sky change colors at the end of the day.',
       isSaved: false,
     },
     {
       id: 'habits_and_little_things_4',
-      text: 'She replays conversations, wondering what she could have said differently.',
+      text: 'He replays conversations, wondering what he could have said differently.',
       isSaved: false,
     },
     {
       id: 'habits_and_little_things_5',
-      text: 'She makes secret wishes at the most random moments.',
+      text: 'He makes secret wishes at the most random moments.',
       isSaved: false,
     },
     {
       id: 'habits_and_little_things_6',
-      text: 'She saves messages that once made her feel understood.',
+      text: 'He saves messages that once made him feel understood.',
       isSaved: false,
     },
     {
       id: 'habits_and_little_things_7',
-      text: 'When she is thinking deeply, she walks a little slower.',
+      text: 'When he is thinking deeply, he walks a little slower.',
       isSaved: false,
     },
     {
       id: 'habits_and_little_things_8',
-      text: 'Sometimes she imagines her life as a quiet movie scene.',
+      text: 'Sometimes he imagines his life as a quiet movie scene.',
       isSaved: false,
     },
     {
       id: 'habits_and_little_things_9',
-      text: 'She hums softly when she finally feels safe.',
+      text: 'He hums softly when he finally feels safe.',
       isSaved: false,
     },
     {
       id: 'habits_and_little_things_10',
-      text: 'She writes letters she never sends — just to let feelings breathe.',
+      text: 'He writes letters he never sends — just to let feelings breathe.',
       isSaved: false,
     },
   ],
@@ -117,52 +117,52 @@ export const FEELINGS_EMOTIONS_FACTS: FactsObjectListType = {
   facts: [
     {
       id: 'feelings_emotions_1',
-      text: 'Labubi feels happiest in calm places where nothing rushes her.',
+      text: 'Zest feels happiest in calm places where nothing rushes him.',
       isSaved: false,
     },
     {
       id: 'feelings_emotions_2',
-      text: 'She feels deeply hurt when she is misunderstood.',
+      text: 'He feels deeply hurt when he is misunderstood.',
       isSaved: false,
     },
     {
       id: 'feelings_emotions_3',
-      text: 'After crying, she often feels unexpectedly brave.',
+      text: 'After crying, he often feels unexpectedly brave.',
       isSaved: false,
     },
     {
       id: 'feelings_emotions_4',
-      text: 'Sometimes she hides sadness behind a very convincing smile.',
+      text: 'Sometimes he hides sadness behind a very convincing smile.',
       isSaved: false,
     },
     {
       id: 'feelings_emotions_5',
-      text: 'The sound of rain makes her heart feel lighter.',
+      text: 'The sound of rain makes his heart feel lighter.',
       isSaved: false,
     },
     {
       id: 'feelings_emotions_6',
-      text: 'She gets anxious before important moments, even if she seems calm.',
+      text: 'He gets anxious before important moments, even if he seems calm.',
       isSaved: false,
     },
     {
       id: 'feelings_emotions_7',
-      text: 'Trying again, even after failing, makes her quietly proud.',
+      text: 'Trying again, even after failing, makes him quietly proud.',
       isSaved: false,
     },
     {
       id: 'feelings_emotions_8',
-      text: 'She needs reassurance more often than she admits.',
+      text: 'He needs reassurance more often than he admits.',
       isSaved: false,
     },
     {
       id: 'feelings_emotions_9',
-      text: 'She feels warm when someone truly listens without interrupting.',
+      text: 'He feels warm when someone truly listens without interrupting.',
       isSaved: false,
     },
     {
       id: 'feelings_emotions_10',
-      text: 'She believes every emotion deserves space — even the uncomfortable ones.',
+      text: 'He believes every emotion deserves space — even the uncomfortable ones.',
       isSaved: false,
     },
   ],
@@ -173,12 +173,12 @@ export const HER_LITTLE_WORLD_FACTS: FactsObjectListType = {
   facts: [
     {
       id: 'her_little_world_1',
-      text: 'In Labubi’s world, stars don’t just shine — they whisper secrets.',
+      text: 'In Zest’s world, stars don’t just shine — they whisper secrets.',
       isSaved: false,
     },
     {
       id: 'her_little_world_2',
-      text: 'Time moves slower when she allows herself to dream.',
+      text: 'Time moves slower when he allows himself to dream.',
       isSaved: false,
     },
     {
@@ -188,17 +188,17 @@ export const HER_LITTLE_WORLD_FACTS: FactsObjectListType = {
     },
     {
       id: 'her_little_world_4',
-      text: 'The moon understands her moods without asking questions.',
+      text: 'The moon understands his moods without asking questions.',
       isSaved: false,
     },
     {
       id: 'her_little_world_5',
-      text: 'Magic appears when she dares to believe in it.',
+      text: 'Magic appears when he dares to believe in it.',
       isSaved: false,
     },
     {
       id: 'her_little_world_6',
-      text: 'Her world glows brighter when she chooses kindness.',
+      text: 'His world glows brighter when he chooses kindness.',
       isSaved: false,
     },
     {
@@ -208,12 +208,12 @@ export const HER_LITTLE_WORLD_FACTS: FactsObjectListType = {
     },
     {
       id: 'her_little_world_8',
-      text: 'Wishes float like light bubbles waiting to be noticed.',
+      text: 'Wishes float like light bubbles waiting to be noticed by him.',
       isSaved: false,
     },
     {
       id: 'her_little_world_9',
-      text: 'Silence sparkles gently at night.',
+      text: 'Silence sparkles gently at night in his world.',
       isSaved: false,
     },
     {
